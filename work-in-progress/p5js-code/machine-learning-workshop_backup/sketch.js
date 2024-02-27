@@ -20,7 +20,7 @@ function setup() {
   createCanvas(400, 400);
   // Appel de la fonction pour lire les données
   readUserData();
-  writeSwitch(false)
+  writeSwitch(true)
 }
 
 function draw() {
@@ -32,12 +32,12 @@ function readUserData() {
   const dbRef = firebase.database().ref();
   dbRef.on("value", (snapshot) => {
     const data = snapshot.val();
-    console.log(data.switch);
+    console.log(data.switching);
   });
 }
 
 function writeSwitch(val) {
   firebase.database().ref().set({
-    switch: val,
+    switching: val,
   });
 }
