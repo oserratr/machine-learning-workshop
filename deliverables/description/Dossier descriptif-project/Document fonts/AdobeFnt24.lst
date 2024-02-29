@@ -1,0 +1,77 @@
+%!Adobe-FontList 1.24
+%Locale:0x40c
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+FullName:Minion Pro
+MenuName:Minion Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\ocean\Documents\machine-learning-workshop\machine-learning-workshop\deliverables\description\Dossier descriptif-project\Document fonts\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:218640
+FileModTime:1702461779
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Montserrat-Regular
+FamilyName:Montserrat
+StyleName:Regular
+FullName:Montserrat Regular
+MenuName:Montserrat
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\ocean\Documents\machine-learning-workshop\machine-learning-workshop\deliverables\description\Dossier descriptif-project\Document fonts\Montserrat-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:197624
+FileModTime:1695809674
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Montserrat
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:TheNightWatch-Regular
+FamilyName:TheNightWatch 
+StyleName:Regular
+FullName:TheNightWatch  Regular
+MenuName:TheNightWatch 
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\ocean\Documents\machine-learning-workshop\machine-learning-workshop\deliverables\description\Dossier descriptif-project\Document fonts\TheNightWatch.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:31264
+FileModTime:1709222292
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,TheNightWatch  Regular
+NameArray:0,Win,1,TheNightWatch 
+%EndFont
+
