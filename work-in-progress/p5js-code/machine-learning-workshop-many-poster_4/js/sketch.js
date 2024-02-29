@@ -269,3 +269,13 @@ function gotResult(error, results) {
     classifyVideo();
   }
 }
+
+// return to false
+function keyTyped() {
+  if (key === "f") {
+    writeSwitch1(false);
+    writeSwitch2(false);
+    writeSwitch3(false);
+    writeSwitch4(false);
+  }
+}
