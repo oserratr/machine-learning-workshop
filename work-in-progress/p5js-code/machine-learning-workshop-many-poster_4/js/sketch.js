@@ -160,6 +160,7 @@ function gotResult(error, results) {
       labelStartTime = millis();
       // noLoop();
     }
+
     classifyVideo();
   }
   if (indexPoster == 1) {
