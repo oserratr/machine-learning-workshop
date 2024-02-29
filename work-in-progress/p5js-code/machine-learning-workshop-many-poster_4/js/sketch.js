@@ -160,11 +160,7 @@ function gotResult(error, results) {
       labelStartTime = millis();
       // noLoop();
     }
-    document.querySelectorAll("canvas").forEach((canvas) => {
-      if (canvas.style.display === "none") {
-        canvas.remove();
-      }
-    });
+
     classifyVideo();
   }
   if (indexPoster == 1) {
@@ -198,11 +194,7 @@ function gotResult(error, results) {
       labelStartTime = millis();
       // noLoop();
     }
-    document.querySelectorAll("canvas").forEach((canvas) => {
-      if (canvas.style.display === "none") {
-        canvas.remove();
-      }
-    });
+
     classifyVideo();
   }
   if (indexPoster == 2) {
@@ -236,11 +228,7 @@ function gotResult(error, results) {
       labelStartTime = millis();
       // noLoop();
     }
-    document.querySelectorAll("canvas").forEach((canvas) => {
-      if (canvas.style.display === "none") {
-        canvas.remove();
-      }
-    });
+
     classifyVideo();
   }
   if (indexPoster == 3) {
@@ -275,11 +263,7 @@ function gotResult(error, results) {
       labelStartTime = millis();
       // noLoop();
     }
-    document.querySelectorAll("canvas").forEach((canvas) => {
-      if (canvas.style.display === "none") {
-        canvas.remove();
-      }
-    });
+
     classifyVideo();
   }
 }
