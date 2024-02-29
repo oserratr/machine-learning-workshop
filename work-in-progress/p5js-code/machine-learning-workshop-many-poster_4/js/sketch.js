@@ -15,10 +15,10 @@ let lastLabel = "";
 let duration = 2000;
 
 // Sequence tracking variables many sequences
-let sequence = ["haut", "bas", "gauche", "droite"];
-let sequence2 = ["bas", "haut"];
-let sequence3 = ["bas", "haut", "bas"];
-let sequence4 = ["bas", "haut", "haut"];
+let sequence = ["haut", "gauche", "haut", "droite", "haut", "droite"];
+let sequence2 = ["haut", "droite", "haut", "droite", "haut"];
+let sequence3 = ["gauche", "bas", "droite", "haut", "gauche", "haut"];
+let sequence4 = ["bas", "droite", "bas", "gauche", "haut", "droite"];
 
 let sequenceIndex = 0;
 let labelStartTime = 0;
@@ -148,7 +148,7 @@ function gotResult(error, results) {
         console.log("Sequence completed!");
         // Optionally reset sequenceIndex to 0 to start over or handle completion differently
         sequenceIndex = 0; // Reset for demonstration
-
+        sucSound.play();
         writeSwitch1(true);
       }
     } else if (
@@ -183,6 +183,7 @@ function gotResult(error, results) {
         console.log("Sequence completed!");
         // Optionally reset sequenceIndex to 0 to start over or handle completion differently
         sequenceIndex = 0; // Reset for demonstration
+        sucSound.play();
         writeSwitch2(true);
       }
     } else if (
@@ -217,6 +218,7 @@ function gotResult(error, results) {
         console.log("Sequence completed!");
         // Optionally reset sequenceIndex to 0 to start over or handle completion differently
         sequenceIndex = 0; // Reset for demonstration
+        sucSound.play();
         writeSwitch3(true);
       }
     } else if (
@@ -265,5 +267,15 @@ function gotResult(error, results) {
     }
 
     classifyVideo();
+  }
+}
+
+// return to false
+function keyTyped() {
+  if (key === "f") {
+    writeSwitch1(false);
+    writeSwitch2(false);
+    writeSwitch3(false);
+    writeSwitch4(false);
   }
 }
