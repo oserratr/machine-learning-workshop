@@ -71,8 +71,8 @@ function setup() {
 
 function draw() {
   background(0);
-  flippedVideo = ml5.flipImage(video);
-  image(flippedVideo, 0, 0);
+  // flippedVideo = ml5.flipImage(video);
+  image(video, 0, 0);
 
   fill(255);
   textSize(16);
@@ -81,8 +81,8 @@ function draw() {
 }
 
 function classifyVideo() {
-  flippedVideo = ml5.flipImage(video);
-  classifier.classify(flippedVideo, gotResult);
+  //flippedVideo = ml5.flipImage(video);
+  classifier.classify(video, gotResult);
 }
 
 //Lire données
